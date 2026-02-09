@@ -14,17 +14,32 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/rizalconference2026/" element={<Home />} />
-      <Route path="/rizalconference2026/About" element={<About />} />
-      <Route path="/rizalconference2026/program" element={<Program />} />
-      <Route path="/rizalconference2026/speaker" element={<Speaker />} />
       <Route
-        path="/rizalconference2026/announcement"
+        path="jasperawr.github.io/rizalconference2026/"
+        element={<Home />}
+      />
+      <Route
+        path="jasperawr.github.io/rizalconference2026/About"
+        element={<About />}
+      />
+      <Route
+        path="jasperawr.github.io/rizalconference2026/program"
+        element={<Program />}
+      />
+      <Route
+        path="jasperawr.github.io/rizalconference2026/speaker"
+        element={<Speaker />}
+      />
+      <Route
+        path="jasperawr.github.io/rizalconference2026/announcement"
         element={<Announcement />}
       />
-      <Route path="/rizalconference2026/tour" element={<Tour />} />
       <Route
-        path="/rizalconference2026/organizerandpartners"
+        path="jasperawr.github.io/rizalconference2026/tour"
+        element={<Tour />}
+      />
+      <Route
+        path="jasperawr.github.io/rizalconference2026/organizerandpartners"
         element={<OrganizerAndPartners />}
       />
     </Routes>

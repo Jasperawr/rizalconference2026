@@ -9,7 +9,7 @@ const NavbarTop = () => {
       <ul className="flex gap-6 text-xs text-gray-900">
         <li>
           <NavLink
-            to="/rizalconference2026/"
+            to="/jasperawr.github.io/rizalconference2026/"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -20,7 +20,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/about"
+            to="/jasperawr.github.io/rizalconference2026/about"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -31,7 +31,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/program"
+            to="/jasperawr.github.io/rizalconference2026/program"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -42,7 +42,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/speaker"
+            to="/jasperawr.github.io/rizalconference2026/speaker"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -53,7 +53,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/tour"
+            to="/jasperawr.github.io/rizalconference2026/tour"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -64,7 +64,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/announcement"
+            to="/jasperawr.github.io/rizalconference2026/announcement"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }
@@ -75,7 +75,7 @@ const NavbarTop = () => {
 
         <li>
           <NavLink
-            to="/rizalconference2026/organizerandpartners"
+            to="/jasperawr.github.io/rizalconference2026/organizerandpartners"
             className={({ isActive }) =>
               isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
             }

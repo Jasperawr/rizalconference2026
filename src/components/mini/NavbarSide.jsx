@@ -3,28 +3,36 @@ import { Icon } from "@iconify/react";
 import { NavLink } from "react-router-dom";
 
 const menu = [
-  { label: "Home", icon: "material-symbols:home-outline", path: "/" },
-  { label: "About", icon: "ix:about", path: "/about" },
+  {
+    label: "Home",
+    icon: "material-symbols:home-outline",
+    path: "/rizalconference2026/",
+  },
+  { label: "About", icon: "ix:about", path: "/rizalconference2026/about" },
   {
     label: "Program",
     icon: "material-symbols:event-outline",
-    path: "/program",
+    path: "/rizalconference2026/program",
   },
-  { label: "Speaker", icon: "ph:microphone-bold", path: "/speaker" },
+  {
+    label: "Speaker",
+    icon: "ph:microphone-bold",
+    path: "/rizalconference2026/speaker",
+  },
   {
     label: "Tour",
     icon: "material-symbols:location-on-outline",
-    path: "/tour",
+    path: "/rizalconference2026/tour",
   },
   {
     label: "Announcement",
     icon: "majesticons:megaphone-line",
-    path: "/announcment",
+    path: "/rizalconference2026/announcment",
   },
   {
     label: "Organizer & Partners",
     icon: "fluent:people-12-regular",
-    path: "/organizerandpartners",
+    path: "/rizalconference2026/organizerandpartners",
   },
 ];
 

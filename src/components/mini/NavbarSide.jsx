@@ -6,37 +6,37 @@ const menu = [
   {
     label: "Home",
     icon: "material-symbols:home-outline",
-    path: "/jasperawr.github.io/rizalconference2026/",
+    path: "/rizalconference2026/",
   },
   {
     label: "About",
     icon: "ix:about",
-    path: "/jasperawr.github.io/rizalconference2026/about",
+    path: "/rizalconference2026/about",
   },
   {
     label: "Program",
     icon: "material-symbols:event-outline",
-    path: "/jasperawr.github.io/rizalconference2026/program",
+    path: "/rizalconference2026/program",
   },
   {
     label: "Speaker",
     icon: "ph:microphone-bold",
-    path: "/jasperawr.github.io/rizalconference2026/speaker",
+    path: "/rizalconference2026/speaker",
   },
   {
     label: "Tour",
     icon: "material-symbols:location-on-outline",
-    path: "/jasperawr.github.io/rizalconference2026/tour",
+    path: "/rizalconference2026/tour",
   },
   {
     label: "Announcement",
     icon: "majesticons:megaphone-line",
-    path: "/jasperawr.github.io/rizalconference2026/announcment",
+    path: "/rizalconference2026/announcment",
   },
   {
     label: "Organizer & Partners",
     icon: "fluent:people-12-regular",
-    path: "/jasperawr.github.io/rizalconference2026/organizerandpartners",
+    path: "/rizalconference2026/organizerandpartners",
   },
 ];
 

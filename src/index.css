@@ -9,6 +9,8 @@
   --font-inter: "Inter", "serif";
   --font-lora: "Lora", "serif";
   --font-sf-pro: "SF Pro Display", "sans-serif";
+  --font-sn-pro: "SN Pro", "sans-serif";
+  --font-lb: "Libre Baskerville", "sans-serif";
 }
 .text-inverted {
   filter: invert(1);

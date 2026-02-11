@@ -26,7 +26,7 @@ const Venue = () => {
             <p className="text-5xl text-gray-900 uppercase font-lora font-semibold">
               venue
             </p>
-            <div className=" text-center pt-4 font-semibold text-gray-500">
+            <div className=" text-center pt-4 text-gray-900 font-lora">
               <p>Provincial Farmers Livelihood Development Center</p>
               <p>Provincial Capitol, Vigan City, Ilocos Sur</p>
             </div>

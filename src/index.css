@@ -21,6 +21,10 @@
   -webkit-text-stroke: 0.5px white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

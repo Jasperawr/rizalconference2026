@@ -9,6 +9,7 @@ import Venue from "../../views/Venue";
 import Objectives from "../../views/Objectives";
 import Header from "../../views/Header";
 import Footer from "../Footer";
+import Location from "../Location";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Contact />
       <About />
       <Objectives />
+      <Location />
       <Venue />
       <Footer />
     </div>

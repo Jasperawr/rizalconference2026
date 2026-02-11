@@ -54,7 +54,7 @@ const NavbarSide = () => {
 
   return (
     <nav
-      className={`fixed top-20 right-0 z-50 transition-all duration-300
+      className={`hidden lg:block fixed top-20 right-0 z-50 transition-all duration-300
         ${
           visible
             ? "opacity-100 translate-x-0 pointer-events-auto"

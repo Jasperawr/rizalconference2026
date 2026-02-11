@@ -45,53 +45,35 @@ const obj = [
 ];
 
 const Objectives = () => {
-  const [bgImageUrl, setBgImageUrl] = useState("../assets/img/1000110790.png");
   return (
-    // bg-[#e9d9c1]
-    <div
-      className=" relative w-full bg-cover bg-center flex flex-col items-center py-20 px-50"
-      // style={{ backgroundImage: `url(${Luneta})` }}
-    >
-      {/* <img
-        src={Luneta}
-        alt=""
-        className="w-200 h-auto absolute bottom-0 right-0"
-      /> */}
-      <div className="relative z-10 flex flex-col items-center">
-        {/* <div className="border rounded border-gray-900 w-10 mb-3"></div> */}
-        <p className="text-lg uppercase font-lora tracking-widest">
-          Seminar-Workshop
-        </p>
-        <p className="text-5xl uppercase font-lora font-semibold">objectives</p>
-        {/* <div className="border rounded border-gray-900 w-10 mt-3 float-end"></div> */}
-      </div>
-      <div className="relative z-10 flex flex-wrap gap-5 pt-10 pl-15 ">
-        {obj.map((item) => (
-          <div className="p-5 w-60 h-60 border rounded-xl flex flex-col items-center gap-10 pt-9">
-            <div className="flex">
-              <Icon
-                icon="ri:number-0"
-                className="text-5xl text-[#650100] group-hover:text-white"
-              />
-              <Icon
-                icon={item.icon}
-                className="text-5xl text-[#650100] group-hover:text-white"
-              />
+    <div id="objectives" className=" bg-[#fefbf8] relative w-full flex ">
+      <div className="relative w-full ">
+        <div className="flex flex-col-reverse lg:flex-row w-full">
+          <div className="flex flex-col text-gray-800 w-full justify-center items-center py-10">
+            <div className="">
+              <p className="text-lg uppercase font-lora tracking-widest">
+                Seminar-Workshop
+              </p>
+              <p className="text-4xl uppercase font-lora font-semibold">
+                Objectives
+              </p>
             </div>
-            <p className="text-xs text-center" key={item.id}>
-              {/* <span className="text-xl font-bold">{item.id}</span>{" "} */}
-              {item.objective}
-            </p>
+            <div className="lg:w-120 pl-5 lg:pl-0 ">
+              {obj.map((item) => (
+                <div className=" w-full flex flex-col pt-9">
+                  <p className="" key={item.id}>
+                    <span className="text-xl font-bold pr-5">{item.id}</span>
+                    {item.objective}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
-        <div
-          className="bg-[#650100] p-5 w-60 h-60 rounded-xl bg-cover bg-center"
-          style={{ backgroundImage: `url(${Luneta})` }}
-        >
-          <img src={Luneta} alt="" className="h-auto w-200 hidden" />
+          <div className="bg-[#650100] aspect-square overflow-hidden w-full ">
+            <img src={Luneta} alt="" className="w-full h-full object-cover" />
+          </div>
         </div>
       </div>
-      {/* <div className="bg-[#e9d9c1]/90 absolute h-full w-full left-0 top-0 "></div> */}
     </div>
   );
 };

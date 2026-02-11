@@ -4,7 +4,7 @@ import NavbarTop from "../../components/mini/NavbarTop";
 
 const AboutCon = () => {
   return (
-    <div className="pt-30 px-50 font-poppins">
+    <div className="pt-30 lg:px-50 font-poppins">
       <NavbarSide />
       <NavbarTop />
       <div className="relative z-10 flex flex-col items-center">
@@ -12,7 +12,9 @@ const AboutCon = () => {
         <p className="text-lg uppercase font-lora tracking-widest">
           Seminar-Workshop
         </p>
-        <p className="text-5xl uppercase font-lora font-semibold">About</p>
+        <p className="text-4xl lg:text-5xl uppercase font-lora font-semibold">
+          About
+        </p>
         {/* <div className="border rounded border-gray-900 w-10 mt-3 float-end"></div> */}
       </div>
       <div className="w-full mt-15">

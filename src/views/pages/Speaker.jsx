@@ -4,7 +4,7 @@ import NavbarTop from "../../components/mini/NavbarTop";
 
 const Speaker = () => {
   return (
-    <div className="pt-30 px-50 font-poppins">
+    <div className="pt-30 lg:px-50 font-poppins">
       <NavbarSide />
       <NavbarTop />
       <div className="relative z-10 flex flex-col items-center">

@@ -8,6 +8,7 @@ import Speaker from "./views/pages/Speaker";
 import Announcement from "./views/pages/Announcement";
 import Tour from "./views/pages/Tour";
 import OrganizerAndPartners from "./views/pages/OrganizerAndPartners";
+import EventVenue from "./views/pages/EventVenue";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/program" element={<Program />} />
+      <Route path="/venue" element={<EventVenue />} />
       <Route path="/speaker" element={<Speaker />} />
       <Route path="/announcement" element={<Announcement />} />
       <Route path="/tour" element={<Tour />} />

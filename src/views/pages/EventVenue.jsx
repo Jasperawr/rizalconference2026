@@ -1,10 +1,11 @@
 import React from "react";
 import NavbarSide from "../../components/mini/NavbarSide";
 import NavbarTop from "../../components/mini/NavbarTop";
-import About from "../About";
+import Venue from "../Venue";
 import Footer from "../Footer";
+import Location from "../Location";
 
-const AboutCon = () => {
+const EventVenue = () => {
   return (
     <div className="pt-30 font-poppins">
       <NavbarSide />
@@ -15,16 +16,17 @@ const AboutCon = () => {
           Seminar-Workshop
         </p>
         <p className="text-4xl lg:text-5xl uppercase font-lora font-semibold">
-          About
+          Venue
         </p>
         {/* <div className="border rounded border-gray-900 w-10 mt-3 float-end"></div> */}
       </div>
       <div className="w-full mt-15">
-        <About />
+        <Location />
+        <Venue />
         <Footer />
       </div>
     </div>
   );
 };
 
-export default AboutCon;
+export default EventVenue;

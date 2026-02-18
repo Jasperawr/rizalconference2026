@@ -1,10 +1,12 @@
 import React from "react";
 import NavbarSide from "../../components/mini/NavbarSide";
 import NavbarTop from "../../components/mini/NavbarTop";
+import ProgramTable from "../ProgramTable";
+import Footer from "../Footer";
 
 const Program = () => {
   return (
-    <div className="pt-30 lg:px-50 font-poppins">
+    <div className="pt-30  font-poppins">
       <NavbarSide />
       <NavbarTop />
       <div className="relative z-10 flex flex-col items-center">
@@ -17,9 +19,10 @@ const Program = () => {
         </p>
         {/* <div className="border rounded border-gray-900 w-10 mt-3 float-end"></div> */}
       </div>
-      <div className="w-full mt-15">
-        <p className="w-full text-center text-gray-500">To be announced</p>
+      <div className="w-full mt-15 lg:px-50">
+        <ProgramTable />
       </div>
+      <Footer />
     </div>
   );
 };

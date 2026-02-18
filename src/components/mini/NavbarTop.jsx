@@ -71,6 +71,18 @@ const NavItems = ({ closeMenu }) => (
 
     <li>
       <NavLink
+        to="/venue"
+        onClick={closeMenu}
+        className={({ isActive }) =>
+          isActive ? "font-semibold" : "opacity-70 hover:opacity-100"
+        }
+      >
+        Venue
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
         to="/speaker"
         onClick={closeMenu}
         className={({ isActive }) =>

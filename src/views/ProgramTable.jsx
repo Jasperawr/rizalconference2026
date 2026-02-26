@@ -314,7 +314,7 @@ const ProgramTable = () => {
 
           <tr>
             <td className=" p-2"></td>
-            <td className="p-2">Paggawad ng Katibayn ng Pagdalo</td>
+            <td className="p-2">Paggawad ng Katibayan ng Pagdalo</td>
             <td className="p-2"></td>
           </tr>
 

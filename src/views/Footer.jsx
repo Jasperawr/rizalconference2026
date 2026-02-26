@@ -30,7 +30,7 @@ const Footer = () => {
               Contact
             </h3>
             <p className="text-sm">0905 391 6803</p>
-            <p className="text-sm">parasabayan88@gmail.com</p>
+            <p className="text-sm">rizalconference2026@gmail.com</p>
           </div>
 
           {/* Quick Links */}
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
 
           {/* Partners */}
-          <div className="space-y-3">
+          <div className="space-y-3 opacity-0">
             <h3 className="font-semibold uppercase text-sm tracking-wide">
               Partners
             </h3>

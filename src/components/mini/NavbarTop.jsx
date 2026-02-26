@@ -1,13 +1,19 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import GNB from "../../assets/img/GNB.png";
+import RizalLogo from "../../assets/img/rizalLogo-bgremoved.png";
 
 const NavbarTop = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed lg:absolute top-0 left-0 w-full z-50 py-4 px-6  lg:px-24  flex justify-between items-center">
-      <img src={GNB} alt="Logo" className="w-16 h-auto" />
+      <div className="flex items-center">
+        <div>
+          <img src={GNB} alt="Logo" className="w-16 h-auto" />
+        </div>
+        <img src={RizalLogo} alt="Logo" className="w-16 h-auto" />
+      </div>
 
       <ul className="hidden lg:flex gap-6 text-sm text-gray-900">
         <NavItems />
